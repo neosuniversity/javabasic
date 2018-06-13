@@ -1,4 +1,4 @@
-package src.org.neosuniversity.unidad1;
+package org.neosuniversity.unidad1;
 
 /**
  * 
