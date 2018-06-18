@@ -7,8 +7,8 @@ package org.neosuniversity.unidad1;
  */
 public class ArraysReto {
 	public static void main(String[] args) {
-		int opcion=1;
-		//int opcion=2;
+		int opcion=1;   //ordenacion ascendente
+		//int opcion=2; //ordenacion descendente
 		
 		int[] valores = { 45, 9, 1, 6, -2 };
 		for (int i = 0; i < valores.length; i++) {
@@ -67,19 +67,4 @@ public class ArraysReto {
 		}
 
 	}
-
-	public static int[] metodoBurbujaAsc(int[] num) {
-		for (int i = 0; i < num.length - 1; i++) {
-			for (int j = 0; j < num.length - 1; j++) {
-				if (num[j] > num[j + 1]) {
-					int tmp = num[j + 1];
-					num[j + 1] = num[j];
-					num[j] = tmp;
-				}
-			}
-		}
-
-		return num;
-	}
-
 }
