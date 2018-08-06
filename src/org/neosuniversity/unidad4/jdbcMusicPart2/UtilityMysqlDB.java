@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad4.jdbcMusic;
+package org.neosuniversity.unidad4.jdbcMusicPart2;
 
 import java.sql.*;
 
@@ -38,7 +38,7 @@ public class UtilityMysqlDB {
         }
     }
 
-    public Cantante[] getCantantesDB(){
+    public Cantante[] executeCantante(){
         Cantante[] arrayCantante = new Cantante[10];
 
 
@@ -49,6 +49,8 @@ public class UtilityMysqlDB {
                     "SELECT ID_CANTANTE,CANTANTE,EDAD, DIRECCION " +
                     "FROM CANTANTE " +
                     "ORDER BY CANTANTE ";
+
+
             stmt = conexion.createStatement();
             rs = stmt.executeQuery(queryCantantes);
             while (rs.next()) {
@@ -57,7 +59,7 @@ public class UtilityMysqlDB {
                 int edad = rs.getInt("EDAD");
                 String direccion= rs.getString("DIRECCION");
 
-                Cantante cantanteDB = new Cantante(cantante, edad,direccion);
+                Cantante cantanteDB = new Cantante(cantante, edad);
                 arrayCantante[countCantante]=cantanteDB;
                 countCantante++;
             }
@@ -68,59 +70,65 @@ public class UtilityMysqlDB {
         }
         return arrayCantante;
     }
-    public int updateCantanteDB(String cantante,String direccion,int idCantante){
-        int rows=0;
-        String queryUpdateCantante=
-                "UPDATE cantante " +
-                " SET   CANTANTE = ?, direccion= ? " +
-                " WHERE ID_CANTANTE= ? ";
+    public Cancion[] executeCancionesByCantante(String cantante){
+
+        Cancion[]  arrayCancion = new Cancion[2];
+        int countCancion=0;
+        String queryCanciones=
+                "SELECT cancion.ID_CANCION,cancion.CANCION,cancion.DURACION " +
+                        "FROM   cantante as cantante, disco as disco, cancion as cancion " +
+                        "WHERE  cantante.ID_CANTANTE=disco.ID_CANTANTE AND " +
+                        "       disco.ID_DISCO=cancion.ID_DISCO AND" +
+                        "       cantante.CANTANTE= ? " +
+                        "       ORDER BY disco.DISCO,cancion.CANCION";
         try {
 
-            pst =  conexion.prepareStatement(queryUpdateCantante);
+            pst =  conexion.prepareStatement(queryCanciones);
             pst.setString(1,cantante);
-            pst.setString(2,direccion);
-            pst.setInt(3,idCantante);
-            rows = pst.executeUpdate();
+            rs= pst.executeQuery();
+            while (rs.next()) {
+                int idCancion = rs.getInt("ID_CANCION");
+                String cancion = rs.getString("CANCION");
+                float duracion = rs.getFloat("DURACION");
+
+                Cancion cancionDB = new Cancion(cancion, duracion);
+                arrayCancion[countCancion] = cancionDB;
+                countCancion++;
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return  rows;
+        return  arrayCancion;
     }
-    public int insertCantanteDB(String cantante,int edad,String direccion){
-        int rows=0;
-        String queryInsertCantante=
-                " INSERT INTO cantante (`CANTANTE`, `EDAD`, `DIRECCION` ) " +
-                " VALUES (?, ?, ?)";
+    public Disco executeDisco(Cantante cantante,Cancion[] arrayCancion){
+
+
+        Disco discoDB=null;
+        String queryCanciones=
+                "SELECT disco.ID_DISCO,disco.DISCO,disco.ANNO_LANZAMIENTO " +
+                        "FROM   cantante as cantante, disco as disco, cancion as cancion " +
+                        "WHERE  cantante.ID_CANTANTE=disco.ID_CANTANTE AND  " +
+                        "       disco.ID_DISCO=cancion.ID_DISCO AND " +
+                        "       cantante.CANTANTE= ? " +
+                        "       GROUP BY disco.DISCO";
         try {
 
-            pst =  conexion.prepareStatement(queryInsertCantante);
-            pst.setString(1,cantante);
-            pst.setInt(2,edad);
-            pst.setString(3,direccion);
+            pst =  conexion.prepareStatement(queryCanciones);
+            pst.setString(1,cantante.getNombreCantante());
+            rs= pst.executeQuery();
+            while (rs.next()) {
+                int idDisco= rs.getInt("ID_DISCO");
+                String disco = rs.getString("DISCO");
+                int lanzamiento = rs.getInt("ANNO_LANZAMIENTO");
+                discoDB = new Disco(disco,lanzamiento,cantante,arrayCancion);
 
-            rows = pst.executeUpdate();
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return  rows;
-    }
-    public int deleteCantanteDB(String cantante){
-        int rows=0;
-        String queryDeleteCantante=
-                " DELETE FROM cantante " +
-                        " WHERE CANTANTE= ?";
-        try {
-
-            pst =  conexion.prepareStatement(queryDeleteCantante);
-            pst.setString(1,cantante);
-            rows = pst.executeUpdate();
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return  rows;
+        return  discoDB;
     }
 
     public void closeDB(){
