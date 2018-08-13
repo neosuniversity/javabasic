@@ -38,7 +38,7 @@ public class UtilityMysqlDB {
         }
     }
 
-    public Cantante[] executeCantante(){
+    public Cantante[] getCantantesDB(){
         Cantante[] arrayCantante = new Cantante[10];
 
 
@@ -70,7 +70,7 @@ public class UtilityMysqlDB {
         }
         return arrayCantante;
     }
-    public Cancion[] executeCancionesByCantante(String cantante){
+    public Cancion[] getCancionesByCantanteDB(String cantante){
 
         Cancion[]  arrayCancion = new Cancion[2];
         int countCancion=0;
@@ -101,7 +101,7 @@ public class UtilityMysqlDB {
         }
         return  arrayCancion;
     }
-    public Disco executeDisco(Cantante cantante,Cancion[] arrayCancion){
+    public Disco getDiscoDB(Cantante cantante,Cancion[] arrayCancion){
 
 
         Disco discoDB=null;

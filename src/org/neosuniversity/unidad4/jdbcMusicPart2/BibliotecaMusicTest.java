@@ -7,11 +7,11 @@ public class BibliotecaMusicTest {
         UtilityMysqlDB db = new UtilityMysqlDB();
         db.MySQLConnect();
         Disco[] lstDiscos = new Disco[5];
-        Cantante[] arrayCantante= db.executeCantante();
+        Cantante[] arrayCantante= db.getCantantesDB();
 
         for(int i=0;i <5 ;i++){
-            Cancion[] arrayCanciones =  db.executeCancionesByCantante(arrayCantante[i].getNombreCantante());
-            lstDiscos[i]=db.executeDisco(arrayCantante[i],arrayCanciones);
+            Cancion[] arrayCanciones =  db.getCancionesByCantanteDB(arrayCantante[i].getNombreCantante());
+            lstDiscos[i]=db.getDiscoDB(arrayCantante[i],arrayCanciones);
         }
 
         BibliotecaMusic biblioteca= new BibliotecaMusic(lstDiscos);
