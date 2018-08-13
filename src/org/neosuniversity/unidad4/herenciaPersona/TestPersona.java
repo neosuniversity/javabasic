@@ -5,8 +5,8 @@ public class TestPersona {
     public static void main(String[] args) {
 
         Estudiante estudiante = new Estudiante("Hector Hugo", "Av Juarez");
-        estudiante.addCourseGrade("JavaScript", 97);
-        estudiante.addCourseGrade("Python", 68);
+        estudiante.agregarCursoCalificacion("JavaScript", 97);
+        estudiante.agregarCursoCalificacion("Python", 68);
         estudiante.imprimirCalificaciones();
         System.out.println("El promedio es " + estudiante.getPromedioCalificaciones());
         System.out.println("----------------------------------------------");

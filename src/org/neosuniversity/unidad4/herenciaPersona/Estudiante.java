@@ -22,7 +22,7 @@ public class Estudiante extends Persona {
         return "Estudiante: " + super.toString();
     }
 
-    public void addCourseGrade(String curso, int calificacion) {
+    public void agregarCursoCalificacion(String curso, int calificacion) {
         cursos[numeroCursos] = curso;
         calificaciones[numeroCursos] = calificacion;
         ++numeroCursos;

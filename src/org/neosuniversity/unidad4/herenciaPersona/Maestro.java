@@ -7,8 +7,8 @@ public class Maestro extends Persona {
     private String[] cursos;
     private static final int MAX_CURSOS= 5;
 
-    public Maestro(String name, String address) {
-        super(name, address);
+    public Maestro(String nombre, String direccion) {
+        super(nombre, direccion);
         numCursos = 0;
         cursos = new String[MAX_CURSOS];
     }
@@ -20,11 +20,11 @@ public class Maestro extends Persona {
     }
 
 
-    public boolean agregarCurso(String course) {
+    public boolean agregarCurso(String curso) {
         for (int i = 0; i < numCursos; i++) {
-            if (cursos[i].equals(course)) return false;
+            if (cursos[i].equals(curso)) return false;
         }
-        cursos[numCursos] = course;
+        cursos[numCursos] = curso;
         numCursos++;
         return true;
     }
