@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad4.herenciaPersona;
+package org.neosuniversity.unidad3.herenciaPersona;
 
 public class Persona {
 

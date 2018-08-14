@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad4.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismoFigura;
 
 public class Triangulo extends Figura {
 
