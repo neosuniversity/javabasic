@@ -1,6 +1,8 @@
 package org.neosuniversity.unidad4.jdbcMusicPart2;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UtilityMysqlDB {
 
@@ -38,11 +40,8 @@ public class UtilityMysqlDB {
         }
     }
 
-    public Cantante[] getCantantesDB(){
-        Cantante[] arrayCantante = new Cantante[10];
-
-
-        int countCantante=0;
+    public List<Cantante> getCantantesDB(){
+        List<Cantante> lstCantante = new ArrayList<>();
 
         try {
             String queryCantantes=
@@ -60,20 +59,18 @@ public class UtilityMysqlDB {
                 String direccion= rs.getString("DIRECCION");
 
                 Cantante cantanteDB = new Cantante(cantante, edad);
-                arrayCantante[countCantante]=cantanteDB;
-                countCantante++;
+                lstCantante.add(cantanteDB);
             }
-
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return arrayCantante;
+        return lstCantante;
     }
-    public Cancion[] getCancionesByCantanteDB(String cantante){
+    public List<Cancion> getCancionesByCantanteDB(String cantante){
 
-        Cancion[]  arrayCancion = new Cancion[2];
-        int countCancion=0;
+        List<Cancion>  listCancion = new ArrayList<>();
+
         String queryCanciones=
                 "SELECT cancion.ID_CANCION,cancion.CANCION,cancion.DURACION " +
                         "FROM   cantante as cantante, disco as disco, cancion as cancion " +
@@ -92,16 +89,15 @@ public class UtilityMysqlDB {
                 float duracion = rs.getFloat("DURACION");
 
                 Cancion cancionDB = new Cancion(cancion, duracion);
-                arrayCancion[countCancion] = cancionDB;
-                countCancion++;
+                listCancion.add(cancionDB);
             }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return  arrayCancion;
+        return  listCancion;
     }
-    public Disco getDiscoDB(Cantante cantante,Cancion[] arrayCancion){
+    public Disco getDiscoDB(Cantante cantante,List<Cancion> lstCancion){
 
 
         Disco discoDB=null;
@@ -121,7 +117,7 @@ public class UtilityMysqlDB {
                 int idDisco= rs.getInt("ID_DISCO");
                 String disco = rs.getString("DISCO");
                 int lanzamiento = rs.getInt("ANNO_LANZAMIENTO");
-                discoDB = new Disco(disco,lanzamiento,cantante,arrayCancion);
+                discoDB = new Disco(disco,lanzamiento,cantante,lstCancion);
 
             }
 
