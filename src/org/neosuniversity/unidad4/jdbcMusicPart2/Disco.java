@@ -1,6 +1,7 @@
 package org.neosuniversity.unidad4.jdbcMusicPart2;
 
 
+import java.util.List;
 
 /**
  * Created by camus on 02/06/2018.
@@ -10,13 +11,13 @@ public class Disco implements Comparable<Disco>{
     private String nombreDisco;
     private int annoLanzamiento;
     private Cantante cantante;
-    private Cancion[] lstCanciones;
+    private List<Cancion> lstCanciones;
     private String genero;
 
 
     public Disco(){}
 
-    public Disco(String nombreDisco, int annoLanzamiento, Cantante cantante, Cancion[] lstCanciones) {
+    public Disco(String nombreDisco, int annoLanzamiento, Cantante cantante, List<Cancion> lstCanciones) {
         this.nombreDisco = nombreDisco;
         this.annoLanzamiento = annoLanzamiento;
         this.cantante = cantante;
@@ -47,11 +48,11 @@ public class Disco implements Comparable<Disco>{
         this.cantante = cantante;
     }
 
-    public Cancion[] getLstCanciones() {
+    public List<Cancion> getLstCanciones() {
         return lstCanciones;
     }
 
-    public void setLstCanciones(Cancion[] lstCanciones) {
+    public void setLstCanciones(List<Cancion> lstCanciones) {
         this.lstCanciones = lstCanciones;
     }
 

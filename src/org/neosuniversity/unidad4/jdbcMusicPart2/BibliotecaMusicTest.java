@@ -1,38 +1,40 @@
 package org.neosuniversity.unidad4.jdbcMusicPart2;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class BibliotecaMusicTest {
     public static void main(String[] args) {
         UtilityMysqlDB db = new UtilityMysqlDB();
         db.MySQLConnect();
-        Disco[] lstDiscos = new Disco[5];
-        Cantante[] arrayCantante= db.getCantantesDB();
+        List<Disco> lstDiscos = new ArrayList<>();
+        List<Cantante> lstCantante= db.getCantantesDB();
 
-        for(int i=0;i <5 ;i++){
-            Cancion[] arrayCanciones =  db.getCancionesByCantanteDB(arrayCantante[i].getNombreCantante());
-            lstDiscos[i]=db.getDiscoDB(arrayCantante[i],arrayCanciones);
+        for(int i=0;i <lstCantante.size() ;i++){
+            List<Cancion> lstCanciones =  db.getCancionesByCantanteDB(lstCantante.get(i).getNombreCantante());
+            lstDiscos.add(db.getDiscoDB(lstCantante.get(i),lstCanciones));
         }
 
         BibliotecaMusic biblioteca= new BibliotecaMusic(lstDiscos);
-        Arrays.sort(biblioteca.getLstDiscos());
+        Collections.sort(biblioteca.getLstDiscos());
 
         imprimeTotalDiscos(biblioteca);
-        Disco[] discos= biblioteca.getLstDiscos();
-        for(int i=0;i < discos.length;i++){
-            Disco disco = discos[i];
+        List<Disco> discos= biblioteca.getLstDiscos();
+        for(int i=0;i < discos.size();i++){
+            Disco disco = discos.get(i);
             imprimeDisco(disco,i);
-            Arrays.sort(disco.getLstCanciones());
-            Cancion[] canciones = disco.getLstCanciones();
-            for(int j=0; j< canciones.length;j++){
-                imprimeCanciones(canciones[j],j);
+            Collections.sort(disco.getLstCanciones());
+            List<Cancion> canciones = disco.getLstCanciones();
+            for(int j=0; j< canciones.size();j++){
+                imprimeCanciones(canciones.get(j),j);
             }
         }
         db.closeDB();
 
     }
     public static void imprimeTotalDiscos(BibliotecaMusic biblioteca){
-        System.out.println("Numero de discos en la biblioteca: " + biblioteca.getLstDiscos().length);
+        System.out.println("Numero de discos en la biblioteca: " + biblioteca.getLstDiscos().size());
     }
 
     public static void imprimeDisco( Disco disco, int contador){

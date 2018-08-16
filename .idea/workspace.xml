@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83d456b-83b0-498e-80c6-77980595f8bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/Cantante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_2_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/music/BibliotecaMusica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/BibliotecaMusica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/music/BibliotecaMusicaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/BibliotecaMusicaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/music/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/music/Cantante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/Cantante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/music/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad2/music/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/BibliotecaMusica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/BibliotecaMusica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/BibliotecaMusicaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/BibliotecaMusicaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Cantante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Cantante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/musicPart2/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/herenciaPersona/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/Maestro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/herenciaPersona/Maestro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/herenciaPersona/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/TestPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/herenciaPersona/TestPersona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/polimorfismoFigura/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/polimorfismoFigura/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/polimorfismoFigura/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/polimorfismoFigura/TestFigura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/TestFigura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/polimorfismoFigura/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javabasic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jars/mariadb-java-client-2.2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +19,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestFigura.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad3/polimorfismoFigura/TestFigura.java">
+    <leaf>
+      <file leaf-file-name="UtilityMysqlDB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BibliotecaMusicTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/BibliotecaMusicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -88,12 +83,14 @@
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/MysqlConexion.java" />
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilidadesMysqlDB.java" />
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/BibliotecaMusicTest.java" />
-        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java" />
-        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java" />
-        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java" />
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/Maestro.java" />
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/Estudiante.java" />
         <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/herenciaPersona/TestPersona.java" />
+        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusic.java" />
+        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Disco.java" />
+        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java" />
+        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java" />
+        <option value="$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java" />
       </list>
     </option>
   </component>
@@ -109,6 +106,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,29 +123,13 @@
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neosuniversity" type="462c0819:PsiDirectoryNode" />
+              <item name="jars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="neosuniversity" type="462c0819:PsiDirectoryNode" />
-              <item name="unidad2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neosuniversity" type="462c0819:PsiDirectoryNode" />
-              <item name="unidad3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neosuniversity" type="462c0819:PsiDirectoryNode" />
-              <item name="unidad3" type="462c0819:PsiDirectoryNode" />
-              <item name="polimorfismoFigura" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
@@ -158,6 +140,14 @@
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="neosuniversity" type="462c0819:PsiDirectoryNode" />
+              <item name="unidad4" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbcMusic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -165,14 +155,13 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jars/mariadb-java-client-2.2.6.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jars/mysql-connector-java-5.1.46.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.20344828" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -180,6 +169,7 @@
       <recent name="org.neosuniversity.unidad4.jdbcBiblioteca" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_curso_java\javabasic\src\jars" />
       <recent name="C:\git_curso_java\javabasic\src\org\neosuniversity\unidad4\jdbcMusic" />
     </key>
   </component>
@@ -195,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestFigura">
+  <component name="RunManager" selected="Application.BibliotecaMusicTest">
     <configuration name="BibliotecaMusicTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.neosuniversity.unidad4.jdbcMusic.BibliotecaMusicTest" />
       <module name="javabasic" />
@@ -301,10 +291,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFigura" />
-        <item itemvalue="Application.TestPersona" />
         <item itemvalue="Application.BibliotecaMusicTest" />
         <item itemvalue="Application.BibliotecaMusicTest (1)" />
+        <item itemvalue="Application.TestFigura" />
+        <item itemvalue="Application.TestPersona" />
         <item itemvalue="Application.BibliotecaMusicaTest" />
       </list>
     </recent_temporary>
@@ -328,59 +318,31 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31955484" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32750398" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2203514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20278184" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17789166" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44833067" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -390,25 +352,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>42</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>38</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>34</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>33</line>
+          <line>35</line>
           <properties class="org.neosuniversity.unidad4.jdbcMusicPart2.BibliotecaMusicTest" method="imprimeTotalDiscos">
             <option name="EMULATED" value="true" />
           </properties>
@@ -416,7 +378,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>37</line>
+          <line>39</line>
           <properties class="org.neosuniversity.unidad4.jdbcMusicPart2.BibliotecaMusicTest" method="imprimeDisco">
             <option name="EMULATED" value="true" />
           </properties>
@@ -424,7 +386,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties class="org.neosuniversity.unidad4.jdbcMusicPart2.BibliotecaMusicTest" method="imprimeCanciones">
             <option name="EMULATED" value="true" />
           </properties>
@@ -552,31 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Cancion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/biblioteca_musica.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Cantante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Disco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -631,41 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/BibliotecaMusicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -732,6 +638,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Cancion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Cantante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/Disco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/BibliotecaMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusicPart2/UtilityMysqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/BibliotecaMusicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad4/jdbcMusic/UtilityMysqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -741,7 +725,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>
@@ -764,7 +748,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>
@@ -788,7 +772,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -808,11 +793,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mariadb-java-client-2.2.6</last-edited>
+          <last-edited>mysql-connector-java-5.1.46</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20344828" />
               </list>
             </option>
           </splitter-proportions>
