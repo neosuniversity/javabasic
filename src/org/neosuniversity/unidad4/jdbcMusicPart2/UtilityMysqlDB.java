@@ -15,12 +15,12 @@ public class UtilityMysqlDB {
 
         try {
             //Driver JDBC
-            Class.forName("org.mariadb.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
 
-            String servidor = "jdbc:mariadb://localhost:3306/biblioteca";
+            String servidor = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";
 
             String usuario = "root";
-            String pass = "TU_PASSWORD";
+            String pass = "discom";
 
             conexion = DriverManager.getConnection(servidor, usuario, pass);
 
@@ -34,8 +34,6 @@ public class UtilityMysqlDB {
             e.printStackTrace();
             conexion = null;
         } finally {
-
-            System.out.println("EXITO");
             return conexion;
         }
     }
