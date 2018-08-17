@@ -20,7 +20,7 @@ public class UtilityMysqlDB {
             String servidor = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";
 
             String usuario = "root";
-            String pass = "discom";
+            String pass = "TU_PASSWORD";
 
             conexion = DriverManager.getConnection(servidor, usuario, pass);
 
