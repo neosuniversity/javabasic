@@ -14,13 +14,15 @@ public class Cono extends Circulo implements IFiguraSolida,IFiguraUtilidades {
         return IFiguraUtilidades.redondeaValor((super.getArea()*altura) /3);
     }
 
-    @Override
-    public String getInformacionFigura(String tipoFigura){
-        return "Es una figura solida: " + tipoFigura;
-    }
 
     @Override
     public String toString() {
         return "Cono[radio=" + radio +  ","  +"altura=" + altura +  ","+ "[color=" + color + "]";
+    }
+
+    @Override
+    public String getInformacionFigura(Class<?> clazz, int index) {
+        return "Es una figura solida: " + clazz.getName().substring(index);
+
     }
 }
