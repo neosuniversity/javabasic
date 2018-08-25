@@ -10,11 +10,6 @@ public class Cuboide extends Rectangulo implements IFiguraSolida {
     }
 
     @Override
-    public String getInformacionFigura(String tipoFigura){
-        return "Es una figura solida: " + tipoFigura;
-    }
-
-    @Override
     public String toString() {
         return "Cubiode[base=" + base + ",altura=" + altura + "," +"[color=" + color + "]";
     }
@@ -22,5 +17,10 @@ public class Cuboide extends Rectangulo implements IFiguraSolida {
     @Override
     public double getVolumen() {
         return getArea()*profundidad;
+    }
+
+    @Override
+    public String getInformacionFigura(Class<?> clazz, int index) {
+        return "Es una figura solida: " + clazz.getName().substring(index);
     }
 }

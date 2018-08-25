@@ -4,7 +4,7 @@ public interface IFiguraSolida {
 
     double getVolumen();
 
-    default String getInformacionFigura(String tipoFigura){
-        return "Es una figura solida: " + tipoFigura;
+    default String getInformacionFigura(Class<?> clazz, int index) {
+        return "Es una figura solida: " + clazz.getName().substring(index);
     }
 }

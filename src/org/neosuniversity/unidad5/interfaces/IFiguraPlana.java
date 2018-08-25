@@ -4,8 +4,8 @@ public interface IFiguraPlana {
 
     double getArea();
 
-    default String getInformacionFigura(String tipoFigura){
-        return "Es una figura plana: " + tipoFigura;
+    default String getInformacionFigura(Class<?> clazz, int index) {
+        return "Es una figura plana: " + clazz.getName().substring(index);
     }
 
 
