@@ -1,6 +1,6 @@
 package org.neosuniversity.unidad5.interfaces;
 
-public class Circulo implements IFiguraPlana {
+public class Circulo implements IFiguraPlana,IFuguraUtilidades{
 
     protected double radio;
     protected String color;
@@ -11,7 +11,7 @@ public class Circulo implements IFiguraPlana {
     }
     @Override
     public double getArea() {
-        return Math.PI*Math.pow(radio,2);
+        return IFuguraUtilidades.redondeaValor(Math.PI*Math.pow(radio,2));
     }
 
     @Override

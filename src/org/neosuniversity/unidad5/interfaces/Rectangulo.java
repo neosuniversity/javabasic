@@ -13,6 +13,7 @@ public class Rectangulo extends DatosFigura implements IFiguraPlana {
 
     @Override
     public double getArea() {
+
         return base*altura;
     }
 }
