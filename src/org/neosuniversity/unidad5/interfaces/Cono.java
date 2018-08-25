@@ -1,17 +1,17 @@
 package org.neosuniversity.unidad5.interfaces;
 
-public class Cono extends Circulo implements IFiguraSolida,IFuguraUtilidades {
+public class Cono extends Circulo implements IFiguraSolida,IFiguraUtilidades {
 
     private int altura;
 
-    public Cono(String color, double radio, int altura) {
+    public Cono(String color, double radio,int altura ) {
         super(color, radio);
         this.altura=altura;
     }
 
     @Override
     public double getVolumen() {
-        return IFuguraUtilidades.redondeaValor((super.getArea()*altura) /3);
+        return IFiguraUtilidades.redondeaValor((super.getArea()*altura) /3);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package org.neosuniversity.unidad5.interfaces;
 
-public class Piramide extends Triangulo implements IFiguraSolida{
+public class Piramide extends Triangulo implements IFiguraSolida,IFiguraUtilidades{
 
     protected  int  profundidad;
 
@@ -20,6 +20,6 @@ public class Piramide extends Triangulo implements IFiguraSolida{
     }
     @Override
     public double getVolumen() {
-        return (super.getArea()*profundidad) /3;
+        return IFiguraUtilidades.redondeaValor((super.getArea()*profundidad) /3);
     }
 }

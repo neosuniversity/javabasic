@@ -5,7 +5,7 @@ public class TestFigura {
 
     public static void main(String[] args) {
         Rectangulo figura1 = new Rectangulo("rojo", 4, 5);
-        System.out.println(figura1);  // Run Rectangle's toString()
+        System.out.println(figura1);
         System.out.println("El Area es: " + figura1.getArea());
         System.out.println("Tipo de figura: " + figura1.getInformacionFigura("Rectangulo"));
         System.out.println("-----------------------------------");

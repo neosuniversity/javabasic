@@ -1,6 +1,6 @@
 package org.neosuniversity.unidad5.interfaces;
 
-public class Rectangulo extends DatosFigura implements IFiguraPlana {
+public class Rectangulo extends BaseFigura implements IFiguraPlana {
 
     public Rectangulo(String color, int base, int altura) {
         super(color, base, altura);

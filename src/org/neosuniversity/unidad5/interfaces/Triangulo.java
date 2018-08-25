@@ -1,6 +1,6 @@
 package org.neosuniversity.unidad5.interfaces;
 
-public class Triangulo extends DatosFigura implements IFiguraPlana,IFuguraUtilidades {
+public class Triangulo extends BaseFigura implements IFiguraPlana,IFiguraUtilidades {
 
     public Triangulo(String color, int base, int altura) {
         super(color, base, altura);
@@ -13,6 +13,6 @@ public class Triangulo extends DatosFigura implements IFiguraPlana,IFuguraUtilid
 
     @Override
     public double getArea() {
-        return IFuguraUtilidades.redondeaValor(base*altura)/2;
+        return IFiguraUtilidades.redondeaValor(base*altura)/2;
     }
 }
