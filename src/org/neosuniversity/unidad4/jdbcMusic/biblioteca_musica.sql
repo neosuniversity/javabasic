@@ -6,8 +6,8 @@
 
 -- estructura de base de datos para biblioteca
 DROP DATABASE IF EXISTS `biblioteca`;
-CREATE DATABASE IF NOT EXISTS `biblioteca`
-USE `biblioteca`;
+CREATE DATABASE IF NOT EXISTS `biblioteca`;
+ USE `biblioteca`;
 
 --  estructura para tabla biblioteca.cantante
 DROP TABLE IF EXISTS `cantante`;

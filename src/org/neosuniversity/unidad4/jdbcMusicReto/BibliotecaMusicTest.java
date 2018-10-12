@@ -1,11 +1,12 @@
-package org.neosuniversity.unidad4.jdbcMusicPart2;
+package org.neosuniversity.unidad4.jdbcMusicReto;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class BibliotecaMusicTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UtilityMysqlDB db = new UtilityMysqlDB();
         db.MySQLConnect();
         List<Disco> lstDiscos = new ArrayList<>();

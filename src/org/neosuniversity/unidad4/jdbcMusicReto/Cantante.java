@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad4.jdbcMusicPart2;
+package org.neosuniversity.unidad4.jdbcMusicReto;
 
 /**
  * Created by camus on 02/06/2018.
