@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad3.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismo;
 
 public class Triangulo extends Figura {
 
@@ -18,6 +18,6 @@ public class Triangulo extends Figura {
 
     @Override
     public double getArea() {
-        return (base*altura)/2;
+        return (base * altura) / 2;
     }
 }

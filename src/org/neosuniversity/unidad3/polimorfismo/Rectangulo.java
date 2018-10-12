@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad3.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismo;
 
 public class Rectangulo extends Figura {
 
@@ -19,6 +19,6 @@ public class Rectangulo extends Figura {
 
     @Override
     public double getArea() {
-        return base*altura;
+        return base * altura;
     }
 }

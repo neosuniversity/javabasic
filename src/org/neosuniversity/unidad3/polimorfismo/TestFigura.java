@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad3.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismo;
 
 public class TestFigura {
 
@@ -18,7 +18,7 @@ public class TestFigura {
         System.out.println("El Area es:  " + figura3.getArea());
         System.out.println("-----------------------------------");
 
-        Figura figura4 = new Figura("green");
+        Figura figura4 = new Figura("verde");
         System.out.println(figura4);
         System.out.println("Area is " + figura4.getArea());
     }

@@ -1,10 +1,10 @@
-package org.neosuniversity.unidad3.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismo;
 
 public class Figura {
 
     private String color;
 
-    public Figura (String color) {
+    public Figura(String color) {
         this.color = color;
     }
 
