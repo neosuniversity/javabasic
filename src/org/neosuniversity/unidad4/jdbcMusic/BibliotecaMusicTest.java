@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class BibliotecaMusicTest {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UtilityMysqlDB db = new UtilityMysqlDB();
-        db.MySQLConnect();
+        db.mySQLConnect();
 
         //cosulta la base de datos
         imprimeCantantes(db.getCantantesDB());

@@ -8,7 +8,7 @@ import java.util.List;
 public class BibliotecaMusicTest {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UtilityMysqlDB db = new UtilityMysqlDB();
-        db.MySQLConnect();
+        db.mySQLConnect();
         List<Disco> lstDiscos = new ArrayList<>();
         List<Cantante> lstCantante= db.getCantantesDB();
 

@@ -11,7 +11,7 @@ import java.util.List;
     ResultSet rs=null;
     PreparedStatement pst=null;
 
-        public Connection MySQLConnect() throws ClassNotFoundException, SQLException {
+        public Connection mySQLConnect() throws ClassNotFoundException, SQLException {
 
             //Driver JDBC
             Class.forName("com.mysql.jdbc.Driver");
