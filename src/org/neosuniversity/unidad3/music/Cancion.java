@@ -1,9 +1,9 @@
-package org.neosuniversity.unidad2.musicReto;
+package org.neosuniversity.unidad3.music;
 
 /**
  * Created by camus on 02/06/2018.
  */
-public class Cancion implements Comparable<Cancion>{
+public class Cancion {
 
     private String nombreCancion;
     private float duracion;
@@ -30,10 +30,5 @@ public class Cancion implements Comparable<Cancion>{
 
     public void setDuracion(float duracion) {
         this.duracion = duracion;
-    }
-
-    @Override
-    public int compareTo(Cancion o) {
-        return this.getNombreCancion().toUpperCase().compareTo(o.getNombreCancion().toUpperCase());
     }
 }

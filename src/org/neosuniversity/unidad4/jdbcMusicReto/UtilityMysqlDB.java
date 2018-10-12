@@ -1,52 +1,37 @@
-package org.neosuniversity.unidad4.jdbcMusicPart2;
+package org.neosuniversity.unidad4.jdbcMusicReto;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UtilityMysqlDB {
+    public class UtilityMysqlDB {
 
     Connection conexion = null;
     Statement stmt = null;
     ResultSet rs=null;
     PreparedStatement pst=null;
 
-    public Connection MySQLConnect() {
+        public Connection mySQLConnect() throws ClassNotFoundException, SQLException {
 
-        try {
             //Driver JDBC
             Class.forName("com.mysql.jdbc.Driver");
 
             String servidor = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";
 
             String usuario = "root";
-            String pass = "TU_PASSWORD";
+            String pass = "discom";
 
-            conexion = DriverManager.getConnection(servidor, usuario, pass);
+            return conexion = DriverManager.getConnection(servidor, usuario, pass);
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-            conexion = null;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            conexion = null;
-        } catch (Exception e) {
-            e.printStackTrace();
-            conexion = null;
-        } finally {
-            return conexion;
         }
-    }
 
-    public List<Cantante> getCantantesDB(){
-        List<Cantante> lstCantante = new ArrayList<>();
+        public List<Cantante> getCantantesDB() throws SQLException {
+            List<Cantante> lstCantante = new ArrayList<>();
 
-        try {
-            String queryCantantes=
+            String queryCantantes =
                     "SELECT ID_CANTANTE,CANTANTE,EDAD, DIRECCION " +
-                    "FROM CANTANTE " +
-                    "ORDER BY CANTANTE ";
-
+                            "FROM CANTANTE " +
+                            "ORDER BY CANTANTE ";
 
             stmt = conexion.createStatement();
             rs = stmt.executeQuery(queryCantantes);
@@ -54,18 +39,16 @@ public class UtilityMysqlDB {
                 int idCante = rs.getInt("ID_CANTANTE");
                 String cantante = rs.getString("CANTANTE");
                 int edad = rs.getInt("EDAD");
-                String direccion= rs.getString("DIRECCION");
+                String direccion = rs.getString("DIRECCION");
 
                 Cantante cantanteDB = new Cantante(cantante, edad);
                 lstCantante.add(cantanteDB);
             }
 
-        } catch (SQLException e) {
-            e.printStackTrace();
+            return lstCantante;
         }
-        return lstCantante;
-    }
-    public List<Cancion> getCancionesByCantanteDB(String cantante){
+
+    public List<Cancion> getCancionesByCantanteDB(String cantante) throws SQLException {
 
         List<Cancion>  listCancion = new ArrayList<>();
 
@@ -76,7 +59,6 @@ public class UtilityMysqlDB {
                         "       disco.ID_DISCO=cancion.ID_DISCO AND" +
                         "       cantante.CANTANTE= ? " +
                         "       ORDER BY disco.DISCO,cancion.CANCION";
-        try {
 
             pst =  conexion.prepareStatement(queryCanciones);
             pst.setString(1,cantante);
@@ -89,13 +71,10 @@ public class UtilityMysqlDB {
                 Cancion cancionDB = new Cancion(cancion, duracion);
                 listCancion.add(cancionDB);
             }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
         return  listCancion;
     }
-    public Disco getDiscoDB(Cantante cantante,List<Cancion> lstCancion){
+
+    public Disco getDiscoDB(Cantante cantante,List<Cancion> lstCancion) throws SQLException {
 
 
         Disco discoDB=null;
@@ -106,7 +85,6 @@ public class UtilityMysqlDB {
                         "       disco.ID_DISCO=cancion.ID_DISCO AND " +
                         "       cantante.CANTANTE= ? " +
                         "       GROUP BY disco.DISCO";
-        try {
 
             pst =  conexion.prepareStatement(queryCanciones);
             pst.setString(1,cantante.getNombreCantante());
@@ -118,10 +96,6 @@ public class UtilityMysqlDB {
                 discoDB = new Disco(disco,lanzamiento,cantante,lstCancion);
 
             }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
         return  discoDB;
     }
 

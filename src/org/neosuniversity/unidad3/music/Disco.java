@@ -1,23 +1,20 @@
-package org.neosuniversity.unidad4.jdbcMusicPart2;
-
-
-import java.util.List;
+package org.neosuniversity.unidad3.music;
 
 /**
  * Created by camus on 02/06/2018.
  */
-public class Disco implements Comparable<Disco>{
+public class Disco {
 
     private String nombreDisco;
     private int annoLanzamiento;
     private Cantante cantante;
-    private List<Cancion> lstCanciones;
+    private Cancion[] lstCanciones;
     private String genero;
 
 
     public Disco(){}
 
-    public Disco(String nombreDisco, int annoLanzamiento, Cantante cantante, List<Cancion> lstCanciones) {
+    public Disco(String nombreDisco, int annoLanzamiento, Cantante cantante, Cancion[] lstCanciones) {
         this.nombreDisco = nombreDisco;
         this.annoLanzamiento = annoLanzamiento;
         this.cantante = cantante;
@@ -48,11 +45,11 @@ public class Disco implements Comparable<Disco>{
         this.cantante = cantante;
     }
 
-    public List<Cancion> getLstCanciones() {
+    public Cancion[] getLstCanciones() {
         return lstCanciones;
     }
 
-    public void setLstCanciones(List<Cancion> lstCanciones) {
+    public void setLstCanciones(Cancion[] lstCanciones) {
         this.lstCanciones = lstCanciones;
     }
 
@@ -62,10 +59,5 @@ public class Disco implements Comparable<Disco>{
 
     public void setGenero(String genero) {
         this.genero = genero;
-    }
-
-    @Override
-    public int compareTo(Disco o) {
-        return this.getNombreDisco().toUpperCase().compareTo(o.getNombreDisco().toUpperCase());
     }
 }

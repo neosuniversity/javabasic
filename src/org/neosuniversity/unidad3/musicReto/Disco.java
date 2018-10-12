@@ -1,9 +1,9 @@
-package org.neosuniversity.unidad2.music;
+package org.neosuniversity.unidad3.musicReto;
 
 /**
  * Created by camus on 02/06/2018.
  */
-public class Disco {
+public class Disco  implements Comparable<Disco>{
 
     private String nombreDisco;
     private int annoLanzamiento;
@@ -59,5 +59,10 @@ public class Disco {
 
     public void setGenero(String genero) {
         this.genero = genero;
+    }
+
+    @Override
+    public int compareTo(Disco o) {
+        return this.getNombreDisco().toUpperCase().compareTo(o.getNombreDisco().toUpperCase());
     }
 }

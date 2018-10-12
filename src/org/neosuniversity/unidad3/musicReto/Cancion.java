@@ -1,9 +1,9 @@
-package org.neosuniversity.unidad4.jdbcMusicPart2;
+package org.neosuniversity.unidad3.musicReto;
 
 /**
  * Created by camus on 02/06/2018.
  */
-public class Cancion implements Comparable<Cancion> {
+public class Cancion implements Comparable<Cancion>{
 
     private String nombreCancion;
     private float duracion;
@@ -11,7 +11,7 @@ public class Cancion implements Comparable<Cancion> {
     public Cancion(){
     }
 
-    public Cancion(String nombreCancion, float duracion){
+    public Cancion(String nombreCancion,float duracion){
         this.nombreCancion=nombreCancion;
         this.duracion=duracion;
     }
