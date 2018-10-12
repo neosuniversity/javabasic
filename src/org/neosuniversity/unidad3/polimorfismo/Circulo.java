@@ -1,6 +1,6 @@
-package org.neosuniversity.unidad3.polimorfismoFigura;
+package org.neosuniversity.unidad3.polimorfismo;
 
-public class Circulo extends Figura{
+public class Circulo extends Figura {
 
     private double radio;
 
@@ -11,12 +11,12 @@ public class Circulo extends Figura{
 
     @Override
     public String toString() {
-        return "Circulo[radio=" + radio +  "," + super.toString() + "]";
+        return "Circulo[radio=" + radio + "," + super.toString() + "]";
     }
 
     @Override
     public double getArea() {
-        return Math.PI*Math.pow(radio,2);
+        return Math.PI * Math.pow(radio, 2);
     }
 
 

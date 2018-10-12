@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad3.herenciaPersona;
+package org.neosuniversity.unidad3.herencia;
 
 public class Estudiante extends Persona {
 
@@ -30,11 +30,10 @@ public class Estudiante extends Persona {
 
 
     public void imprimirCalificaciones() {
-        System.out.print(this);
+        System.out.println(this);
         for (int i = 0; i < numeroCursos; ++i) {
-            System.out.print(" " + cursos[i] + ":" + calificaciones[i]);
+            System.out.println(" " + cursos[i] + ":" + calificaciones[i]);
         }
-        System.out.println();
     }
 
     public double getPromedioCalificaciones() {
