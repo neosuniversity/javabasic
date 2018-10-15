@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad5.exceptions;
+package org.neosuniversity.unidad5.excepciones;
 
 
 public class TestFigura {
@@ -6,7 +6,7 @@ public class TestFigura {
     public static void main(String[] args) {
 
         try {
-            Rectangulo figura1 = new Rectangulo("rojo", 4, 5);
+            Rectangulo figura1 = new Rectangulo("rojo", 0, 5);
             System.out.println(figura1);
             System.out.println("El Area es: " + figura1.getArea());
             System.out.println("Informacion: " + figura1.getInformacionFigura(Rectangulo.class,38));
@@ -60,7 +60,7 @@ public class TestFigura {
         System.out.println("-----------------------------------");
 
         try {
-            Piramide figura6 = new Piramide("azul", 4, 5,5);
+            Piramide figura6 = new Piramide(null, 4, 5,5);
             System.out.println(figura6);
             System.out.println("El Volumen es:  " + figura6.getVolumen());
             System.out.println("Informacion: " + figura6.getInformacionFigura(Piramide.class,38));

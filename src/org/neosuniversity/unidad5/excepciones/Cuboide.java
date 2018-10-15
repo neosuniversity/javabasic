@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad5.exceptions;
+package org.neosuniversity.unidad5.excepciones;
 
 public class Cuboide extends Rectangulo implements IFiguraSolida {
 

@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad5.exceptions;
+package org.neosuniversity.unidad5.excepciones;
 
 public class Circulo extends BaseFigura implements IFiguraPlana,IFiguraUtilidades {
 
