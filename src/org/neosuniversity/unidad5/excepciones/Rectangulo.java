@@ -1,4 +1,4 @@
-package org.neosuniversity.unidad5.exceptions;
+package org.neosuniversity.unidad5.excepciones;
 
 public class Rectangulo extends BaseFigura implements IFiguraPlana {
 
