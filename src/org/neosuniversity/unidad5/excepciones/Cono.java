@@ -29,7 +29,7 @@ public class Cono extends Circulo implements IFiguraSolida,IFiguraUtilidades {
 
     @Override
     public String getInformacionFigura(Class<?> clazz, int index) {
-        return super.getInformacionFigura(clazz,index);
+        return "Es una figura solida: " + clazz.getName().substring(index);
 
     }
 }

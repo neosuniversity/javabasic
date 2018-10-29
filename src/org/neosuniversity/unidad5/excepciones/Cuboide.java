@@ -29,6 +29,6 @@ public class Cuboide extends Rectangulo implements IFiguraSolida {
 
     @Override
     public String getInformacionFigura(Class<?> clazz, int index) {
-        return super.getInformacionFigura(clazz,index);
+        return "Es una figura solida: " + clazz.getName().substring(index);
     }
 }
