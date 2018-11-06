@@ -20,9 +20,9 @@ public class CalculadoraTest {
         calculadora3 =  CalculadoraTest.executeOperationWithValidation(calculadora3);
 
 
-        System.out.println(calculadora1.getResultado());
-        System.out.println(calculadora2.getResultado());
-        System.out.println(calculadora3.getResultado());
+        System.out.println(calculadora1.getResultado()  +  " operacion: " + calculadora1.getOperacion());
+        System.out.println(calculadora2.getResultado()  +  " operacion: " + calculadora2.getOperacion());
+        System.out.println(calculadora3.getResultado()  +  " operacion: " + calculadora3.getOperacion());
 
     }
 
@@ -47,7 +47,7 @@ public class CalculadoraTest {
     private static Calculadora executeOperation(Calculadora calculadora) {
         switch (calculadora.getOperacion()) {
             case "+": {
-                calculadora =  execute(calculadora,operacion -> {
+                execute(calculadora,operacion -> {
                     operacion.setResultado(operacion.getOperadorA() + operacion.getOperadorB());
                     return operacion;
                 });
@@ -55,21 +55,21 @@ public class CalculadoraTest {
                 break;
             }
             case "-": {
-                calculadora = execute(calculadora,operacion -> {
+                execute(calculadora,operacion -> {
                     operacion.setResultado(operacion.getOperadorA() - operacion.getOperadorB());
                     return operacion;
                 });
                 break;
             }
             case "*": {
-                calculadora = execute(calculadora,operacion -> {
+                execute(calculadora,operacion -> {
                     operacion.setResultado(operacion.getOperadorA() * operacion.getOperadorB());
                     return operacion;
                 });
                 break;
             }
             case "/": {
-                calculadora = execute(calculadora,operacion -> {
+                execute(calculadora,operacion -> {
                     operacion.setResultado(operacion.getOperadorA() / operacion.getOperadorB());
                     return operacion;
                 });
