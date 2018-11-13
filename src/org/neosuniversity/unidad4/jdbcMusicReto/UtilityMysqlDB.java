@@ -18,8 +18,8 @@ import java.util.List;
 
             String servidor = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";
 
-            String usuario = "root";
-            String pass = "discom";
+            String usuario = "YOUR_USER";
+            String pass = "YOUR_PASSWORD";
 
             return conexion = DriverManager.getConnection(servidor, usuario, pass);
 
