@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bf788b-0d04-45d7-b00a-959d72e636f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jars/javafx.web.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" beforeDir="false" />
+    <list default="true" id="43ed3e16-98d0-4273-b0e1-047420645923" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javabasic.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +44,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -91,19 +82,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548026563604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548026909382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jars/mysql-connector-java-5.1.46.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.27931035" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\neosuniversity\code\javabasic\src\jars" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,11 +130,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32bf788b-0d04-45d7-b00a-959d72e636f3" name="Default Changelist" comment="" />
-      <created>1548026042286</created>
+      <changelist id="43ed3e16-98d0-4273-b0e1-047420645923" name="Default Changelist" comment="" />
+      <created>1548026684534</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548026042286</updated>
+      <updated>1548026684534</updated>
     </task>
     <servers />
   </component>
@@ -184,13 +171,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad2/calculadora/CalculadoraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/neosuniversity/unidad2/calculadora/CalculadoraTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -210,7 +190,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -222,7 +202,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -234,7 +214,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -246,7 +226,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -258,7 +238,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -278,11 +258,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javafx-swt</last-edited>
+          <last-edited>jars</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27931035" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
