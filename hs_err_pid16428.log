@@ -158,8 +158,8 @@ Deoptimization events (0 events):
 No events
 
 Internal exceptions (4 events):
-Event: 0.042 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x0000000780907cc0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\srËèHÿ´¥?
-Event: 0.042 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x0000000780907fa8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\src\share\vm\prims\j>œ’qØ@
+Event: 0.042 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x0000000780907cc0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\srï¿½ï¿½Hï¿½ï¿½ï¿½?
+Event: 0.042 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x0000000780907fa8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\src\share\vm\prims\j>ï¿½ï¿½qï¿½@
 Event: 5.211 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchFieldError': method resolution failed> (0x0000000780dc9da0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\src\share\vm\prims\methodHandles.cpp, line 1146]
 Event: 5.249 Thread 0x0000000002d83800 Exception <a 'java/lang/NoSuchFieldError': method resolution failed> (0x0000000780dd7c60) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u91\7017\hotspot\src\share\vm\prims\methodHandles.cpp, line 1146]
 
