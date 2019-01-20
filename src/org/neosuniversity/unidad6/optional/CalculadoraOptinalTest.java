@@ -6,7 +6,7 @@ import java.util.Optional;
  * @author Hugo Hidalgo
  *         15/06/2018
  */
-public class CalculadoraTest {
+public class CalculadoraOptinalTest {
 
     public static void main(String[] args) {
 
@@ -14,10 +14,10 @@ public class CalculadoraTest {
         Calculadora calculadora2= new Calculadora(5, 5, " * ");
         Calculadora calculadora3= null;
 
-        calculadora1 =  CalculadoraTest.executeOperationWithValidation(calculadora1);
-        calculadora2 =  CalculadoraTest.executeOperationWithValidation(calculadora2);
-        //calculadora3 =  CalculadoraTest.executeOperation(calculadora3);
-        calculadora3 =  CalculadoraTest.executeOperationWithValidation(calculadora3);
+        calculadora1 =  CalculadoraOptinalTest.executeOperationWithValidation(calculadora1);
+        calculadora2 =  CalculadoraOptinalTest.executeOperationWithValidation(calculadora2);
+        //calculadora3 =  CalculadoraOptinalTest.executeOperation(calculadora3);
+        calculadora3 =  CalculadoraOptinalTest.executeOperationWithValidation(calculadora3);
 
 
         System.out.println(calculadora1.getResultado()  +  " operacion: " + calculadora1.getOperacion());
@@ -30,8 +30,8 @@ public class CalculadoraTest {
     private static Calculadora executeOperationWithValidation(Calculadora calculadora){
         return  Optional
                 .ofNullable(calculadora)
-                .map(CalculadoraTest::executeStringTrim)
-                .map(CalculadoraTest::executeOperation)
+                .map(CalculadoraOptinalTest::executeStringTrim)
+                .map(CalculadoraOptinalTest::executeOperation)
                 .orElse(new Calculadora(0,0,"NOT-FOUND"));
     }
 
