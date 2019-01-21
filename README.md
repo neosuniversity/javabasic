@@ -29,7 +29,7 @@ Ejemplo Windows: C:\software
  9. Se recomienda dejar las configuraciones por default ya que esto hara que el soporte a dudas sea mas rapido de resolver.
  
  10. Para probar que la configuracion esta funcionando correctamente deberemos ejecutar CalculadoraTest.java (Unidad 2-->calculadora)
- ![Image of import](https://github.com/neosuniversity/libreriaFX/blob/master/src/images/calculadorafx_main.png)
+ ![Image of main](https://github.com/neosuniversity/javabasic/blob/master/src/images/calculadorafx_main.png)
  
 **Nota**: Tratar de usar la opción de **Import ProJect** de Intellij IDE realizara una sobreescritura de las configuraciones que son necesarias para que el proyecto funcione, motivo por el cual se aconseja que realice la importacion del proyecto como se describe en el paso número 2.
 
