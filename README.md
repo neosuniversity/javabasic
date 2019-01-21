@@ -3,8 +3,6 @@
 Repositorio que tiene las soliciones a los retos del curso Java 11 de principiante a experto
 
 
-Repositorio que tiene el codigo del curso Java 11 premium.
-
 ----------------------------------
 Pasos para instalación de proyecto :heavy_exclamation_mark:
 ----------------------------------
