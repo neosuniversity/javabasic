@@ -13,4 +13,4 @@ Pasos para instalación de proyecto :heavy_exclamation_mark:
 3. Es obligarorio usar JDK 11 para poder configurar el proyecto.
 
 
-**Nota**: Tratar de usar la opción de **Import ProJect** de Intellij IDE realizara una sobreescritura de las configuraciones que son necesarias para que el proyecto funcione, motivo por el cual se aconseja que realice la importacion del proyecto como se describe en el paso número 2.
+**Nota**: Tratar de usar la opción de Import Proyect de Intellij IDE realizara una sobreescritura de las configuraciones que son necesarias para que el proyecto funcione, motivo por el cual se aconseja que realice la importacion del proyecto como se describe en el paso número 2.
