@@ -7,7 +7,7 @@ Pasos para instalación de proyecto :heavy_exclamation_mark:
 ----------------------------------
 1. Clonar el proyecto ó bien descargar el zip (Realizar un unzip)
 
-2. Importar el proyecto en Intellij IDE usando la **opcion Open** come se muestra en la imagen
+2. Importar el proyecto en Intellij IDE usando la **opcion Open** como se muestra en la imagen
 ![Image of import](https://github.com/neosuniversity/libreriaFX/blob/master/src/images/intellij-open.png)
 
 3. Es obligarorio usar JDK 11 para poder configurar el proyecto.
